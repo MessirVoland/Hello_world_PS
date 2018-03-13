@@ -23,8 +23,8 @@
     <article>
         <div class="main_page_block">
             <div class="plate">
-                <a href="">
-                    статья 1
+                <a href="articles/article_0.php">
+                    Первая тестовая статейка больше для оценки конфигурации сайта
                 </a>
             </div>
             <div class="plate">
