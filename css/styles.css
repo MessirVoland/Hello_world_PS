@@ -1,0 +1,80 @@
+.block1 {
+    width: 75%;
+    left : 37.5%;
+    margin-left: -25%;
+    position: relative;
+    background: #ccc;
+    padding: 0px 0px 0px 0px;
+    border: solid 1px red;
+    float: left;
+}
+.block2 {
+    width: 200px;
+    background: #ccc;
+    padding: 5px 10px 5px 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab:300');
+.top-menu {
+    position: relative;
+    background: rgba(200,100,100,.2);
+}
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 80px;
+    padding: 0 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Lobster','Roboto Slab', Serif;
+    font-weight: bold;
+    color: white;
+    transition: .3s linear;
+}
+.menu-main a:hover {background: rgba(255,0,0,.5);}
+
+@media (max-width: 830px) {
+    .menu-main {
+        padding-top: 90px;
+        text-align: center;
+    }
+    .navbar-logo {
+        position: absolute;
+        left: 50%;
+        top: 10px;
+        transform: translateX(-50%);
+    }
+    .menu-main li {
+        float: none;
+        display: inline-block;
+    }
+    .menu-main a {
+        line-height: normal;
+        padding: 20px 15px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 630px) {
+    .menu-main li {display: block;}
+}

@@ -1,0 +1,45 @@
+.main_page_block {
+    width: 75%;
+    left : 37.5%;
+    height: auto;
+    margin-left: -25%;
+    //padding: 0px;
+    padding-right: 0%;
+    position: relative;
+    background: #ccc;
+    padding-bottom: 10px;
+    
+    border: solid 1px red;
+    float: left;
+}
+.plate{
+    float: left;
+    border-radius: 15px;
+    border: solid 1px red;
+    height: 33%;
+    width: 32%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 0px; /* if you want space between the images */
+    margin-left:1%;
+    margin-right: 0px;
+    margin-top: 1%;
+    display: inline;
+
+}
+.plate a{text-decoration: none;
+    border-radius:inherit;
+    display: block;
+    font-size: 15px;
+    font-family: 'Lobster','Roboto Slab', Serif;
+    color: #000000;
+    padding: 5px;
+
+    text-decoration: none;
+    display:block;
+    height: 97%;
+    transition: .3s linear;
+}
+
+.plate a:hover{
+    border-radius: inherit;
+    background: rgba(255,0,0,.6);
+}
